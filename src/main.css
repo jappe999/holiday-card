@@ -1,0 +1,24 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+/* purgecss ignore start */
+@import url('https://fonts.googleapis.com/css?family=Charm:400,700');
+
+html,
+body {
+  max-height: 100vh;
+  height: 100%;
+  margin: 0;
+  background-color: config('colors.black')
+}
+
+#app {
+  display: flex;
+}
+
+.font-charm {
+  font-family: 'Charm';
+}
+
+/* purgecss ignore stop */
