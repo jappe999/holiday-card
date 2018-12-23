@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 /* purgecss ignore start */
-@import url('https://fonts.googleapis.com/css?family=Charm:400,700');
-
 html,
 body {
   max-height: 100vh;
@@ -20,5 +18,4 @@ body {
 .font-charm {
   font-family: 'Charm';
 }
-
 /* purgecss ignore stop */

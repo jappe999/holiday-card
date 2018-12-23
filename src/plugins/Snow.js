@@ -48,7 +48,7 @@ const Snow = (canvas, count) => {
 }
 
 const defaultOptions = {
-  color: '#91a7ff',
+  color: '#f8fafc',
   radius: [0.5, 3.0],
   speed: [1, 3],
   wind: [-0.5, 3.0]

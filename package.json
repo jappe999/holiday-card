@@ -10,6 +10,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
     "dotenv-webpack": "^1.5.7",
+    "postcss-import": "^12.0.1",
     "soundcloud": "https://github.com/soundcloud/soundcloud-javascript",
     "tailwindcss": "^0.7.3",
     "vue": "^2.5.17"

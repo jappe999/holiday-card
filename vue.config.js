@@ -1,6 +1,8 @@
 const Dotenv = require('dotenv-webpack')
 const tailwindcss = require('tailwindcss')
+const postcssImport = require('postcss-import')
 const purgecss = require('@fullhuman/postcss-purgecss')
+const autoprefixer = require('autoprefixer')
 
 const config = {
   configureWebpack: {
@@ -13,6 +15,8 @@ const config = {
     loaderOptions: {
       postcss: {
         plugins: [
+          postcssImport,
+          autoprefixer,
           tailwindcss('./tailwind.js'),
         ]
       }
