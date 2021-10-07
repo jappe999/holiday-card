@@ -1,4 +1,7 @@
-# christmas
+# Webdrawings Holiday card
+
+![holiday card](https://user-images.githubusercontent.com/10500389/136366394-86a84164-e4f7-40c7-8341-a155a7129b21.gif)
+
 
 ## Project setup
 ```
